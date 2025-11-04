@@ -537,6 +537,212 @@ body {
     transform: translateY(-2px);
 }
 
+/* Featured Projects Section */
+.featured-projects-section {
+    padding: 4rem 0;
+    background-color: var(--section-bg);
+}
+
+.section-subtitle {
+    text-align: center;
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+.featured-projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.featured-project-card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px var(--card-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px var(--card-shadow);
+}
+
+.featured-project-image {
+    width: 100%;
+    height: 200px;
+    background-color: var(--section-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-image-placeholder {
+    font-size: 4rem;
+    opacity: 0.7;
+}
+
+.featured-project-content {
+    padding: 2rem;
+}
+
+.featured-project-content h3 {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.featured-project-company {
+    color: var(--link-color);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.featured-project-description {
+    color: var(--text-color);
+    opacity: 0.9;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.featured-project-link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.featured-project-link:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+.view-all-projects {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Latest Insights Section (Homepage Preview) */
+.latest-insights-section {
+    padding: 4rem 0;
+}
+
+.insights-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.insights-subtitle {
+    color: var(--text-color);
+    opacity: 0.7;
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.insights-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.insight-preview-card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px var(--card-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0.9;
+}
+
+.insight-preview-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px var(--card-shadow);
+    opacity: 1;
+}
+
+.insight-image {
+    width: 100%;
+    height: 150px;
+    background-color: var(--section-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insight-image-placeholder {
+    font-size: 3rem;
+    opacity: 0.6;
+}
+
+.insight-content {
+    padding: 1.5rem;
+}
+
+.insight-category {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: var(--section-bg);
+    color: var(--link-color);
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.insight-content h3 {
+    margin-bottom: 0.75rem;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.insight-excerpt {
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.insight-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.insight-date {
+    color: var(--text-color);
+    opacity: 0.6;
+    font-size: 0.85rem;
+}
+
+.insight-read-link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.insight-read-link:hover {
+    color: var(--link-hover);
+}
+
+.view-all-insights {
+    text-align: center;
+    margin-top: 2rem;
+}
+
 /* CTA Section */
 .cta-section {
     padding: 4rem 0;
@@ -1464,5 +1670,165 @@ body {
         font-size: 0.85rem;
         padding: 0.4rem 0.8rem;
     }
+    
+    .featured-projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .insights-preview-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Insights Page Styles */
+.insights-section {
+    padding: 4rem 0;
+}
+
+.insights-filter {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.insights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.insight-card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px var(--card-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.insight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px var(--card-shadow);
+}
+
+.insight-card-image {
+    width: 100%;
+    height: 200px;
+    background-color: var(--section-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insight-card-content {
+    padding: 2rem;
+}
+
+.insight-category-badge {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background-color: var(--link-color);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.insight-card-content h3 {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+.insight-date {
+    color: var(--text-color);
+    opacity: 0.6;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.insight-summary {
+    color: var(--text-color);
+    opacity: 0.9;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.insight-read-more {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.insight-read-more:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    padding: 4rem 0;
+    background-color: var(--section-bg);
+}
+
+.newsletter-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--card-bg);
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--card-shadow);
+    text-align: center;
+}
+
+.newsletter-box h3 {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 1.8rem;
+}
+
+.newsletter-box p {
+    color: var(--text-color);
+    opacity: 0.9;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.newsletter-input {
+    flex: 1;
+    min-width: 250px;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.newsletter-input:focus {
+    outline: none;
+    border-color: var(--link-color);
+}
+
+.newsletter-input::placeholder {
+    color: var(--text-color);
+    opacity: 0.5;
 }
 
