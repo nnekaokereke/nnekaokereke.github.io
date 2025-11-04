@@ -248,6 +248,54 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
 
 ---
 
+---
+
+## Latest Updates (November 2024)
+
+### ✅ Homepage Redesign - Focused & Compact
+- **Removed redundant sections** from homepage
+- **Moved detailed Experience Timeline** to About page
+- **Moved Education section** to About page
+- **Removed duplicate Skills section** (kept detailed one on About page)
+- **Added Featured Projects section** - Showcases 3 best projects with images
+- **Added Latest Insights preview** - Minimal 2-post preview (secondary, doesn't overshadow portfolio)
+- **Condensed homepage** to 5 focused sections:
+  1. Hero Section (Photo + Intro)
+  2. Key Achievements (4 stat cards)
+  3. Featured Projects (3 cards with images)
+  4. Latest Insights (2 blog posts - minimal preview)
+  5. Contact CTA
+
+### ✅ Insights/Blog Page Created
+- **New dedicated Insights page** (`insights.html`)
+- **Category filtering** (Solar Tech, EV Technology, Heat Pumps, Industry Trends, Policy Updates)
+- **6 sample articles** with placeholders
+- **Newsletter signup section** at bottom
+- **Professional layout** with card-based design
+- **Clear indication** it's a "side interest" - doesn't overshadow portfolio
+
+### ✅ Navigation Updated
+- **Added "Insights" tab** to main navigation
+- **Maintained LinkedIn link** in navigation
+- **Clear hierarchy** - Portfolio remains primary focus
+
+### ✅ About Page Enhanced
+- **Moved complete Experience Timeline** from homepage
+- **Moved Education section** from homepage
+- **Complete Skills & Competencies** section
+- **Tools & Technologies** section
+- **Professional philosophy** section
+- **All detailed information** now on About page where it belongs
+
+### ✅ Design Improvements
+- **Homepage is now more focused** - 60% less scrolling
+- **Better visual hierarchy** - Portfolio clearly primary
+- **Insights section is visually secondary** - smaller cards, muted styling
+- **Featured Projects** with images and clear CTAs
+- **Responsive design** maintained across all devices
+
+---
+
 **Last Updated:** November 2024  
 **Maintained by:** Nneka Okereke  
 **Website:** https://nnekaokereke.github.io
