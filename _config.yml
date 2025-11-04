@@ -1,14 +1,14 @@
 # Site Configuration
-title: "Your Name"
-email: your.email@example.com
-description: "Portfolio website showcasing my projects and skills"
+title: "Nneka Okereke"
+email: nnekaokereke@example.com
+description: "Portfolio website showcasing my projects and skills as a Project Manager"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. https://yourusername.github.io
+url: "https://nnekaokereke.github.io" # the base hostname & protocol for your site
 
 # Social
-github_username: yourusername
-linkedin_username: yourusername
-twitter_username: yourusername
+github_username: nnekaokereke
+linkedin_username: nneka-okereke-62576212b
+twitter_username: ""
 
 # Build settings
 theme: minima
