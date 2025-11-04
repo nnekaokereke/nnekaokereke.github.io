@@ -171,6 +171,12 @@ body {
     line-height: 1.8;
 }
 
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
@@ -221,6 +227,115 @@ body {
     margin-bottom: 2rem;
     text-align: center;
     color: var(--text-color);
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 4rem 0;
+    background-color: var(--section-bg);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.skill-card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--card-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px var(--card-shadow);
+}
+
+.skill-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.skill-card h3 {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.skill-card p {
+    color: var(--text-color);
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+/* Achievements Section */
+.achievements-section {
+    padding: 4rem 0;
+}
+
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.achievement-card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--card-shadow);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px var(--card-shadow);
+}
+
+.achievement-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--link-color);
+    margin-bottom: 0.5rem;
+}
+
+.achievement-label {
+    color: var(--text-color);
+    opacity: 0.9;
+    font-size: 0.95rem;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 4rem 0;
+    background-color: var(--section-bg);
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .portfolio-highlights {
@@ -380,6 +495,174 @@ body {
     background-color: var(--section-bg);
 }
 
+/* About Page */
+.about-intro {
+    padding: 4rem 0;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 3rem;
+    align-items: start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-image {
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px var(--card-shadow);
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.about-text .lead {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    line-height: 1.8;
+}
+
+.about-text p {
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    opacity: 0.9;
+    line-height: 1.8;
+}
+
+.professional-philosophy {
+    padding: 4rem 0;
+    background-color: var(--section-bg);
+}
+
+.philosophy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.philosophy-card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--card-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.philosophy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px var(--card-shadow);
+}
+
+.philosophy-card h3 {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 1.3rem;
+}
+
+.philosophy-card p {
+    color: var(--text-color);
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.certifications-section {
+    padding: 4rem 0;
+}
+
+.certifications-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cert-item {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--card-shadow);
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px var(--card-shadow);
+}
+
+.cert-icon {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+.cert-details h3 {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.cert-details p {
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.tools-section {
+    padding: 4rem 0;
+    background-color: var(--section-bg);
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.tool-category {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--card-shadow);
+}
+
+.tool-category h3 {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.tool-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tool-tag {
+    padding: 0.5rem 1rem;
+    background-color: var(--section-bg);
+    color: var(--text-color);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.tool-tag:hover {
+    background-color: var(--link-color);
+    color: white;
+    border-color: var(--link-color);
+}
+
 .page-header h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
@@ -395,6 +678,193 @@ body {
 /* Portfolio Page */
 .portfolio-section {
     padding: 4rem 0;
+}
+
+.portfolio-filter {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.filter-label {
+    font-weight: 600;
+    color: var(--text-color);
+    margin-right: 1rem;
+}
+
+.filter-btn {
+    padding: 0.5rem 1.5rem;
+    border: 2px solid var(--border-color);
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: var(--link-color);
+    color: white;
+    border-color: var(--link-color);
+}
+
+.projects-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--card-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px var(--card-shadow);
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.project-header h3 {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.project-status {
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.project-status.completed {
+    background-color: #28a745;
+    color: white;
+}
+
+.project-status.ongoing {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.project-status.current {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.project-meta {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.project-description {
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.project-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.tag {
+    padding: 0.25rem 0.75rem;
+    background-color: var(--section-bg);
+    color: var(--text-color);
+    border-radius: 15px;
+    font-size: 0.85rem;
+    border: 1px solid var(--border-color);
+}
+
+.project-outcomes {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.project-outcomes h4 {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.project-outcomes ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.project-outcomes li {
+    color: var(--text-color);
+    opacity: 0.9;
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+.project-outcomes li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--link-color);
+    font-weight: bold;
+}
+
+.methodologies-section {
+    padding: 4rem 0;
+    background-color: var(--section-bg);
+}
+
+.methodologies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.methodology-card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--card-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.methodology-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px var(--card-shadow);
+}
+
+.methodology-card h3 {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.methodology-card p {
+    color: var(--text-color);
+    opacity: 0.9;
+    line-height: 1.6;
 }
 
 .portfolio-grid {
@@ -459,6 +929,77 @@ body {
 /* CV Page */
 .cv-section {
     padding: 4rem 0;
+}
+
+.cv-profile {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px var(--card-shadow);
+}
+
+.profile-summary {
+    color: var(--text-color);
+    opacity: 0.9;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.cv-location {
+    color: var(--text-color);
+    opacity: 0.7;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.competencies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.competency-item {
+    padding: 0.75rem 1rem;
+    background-color: var(--card-bg);
+    border-radius: 5px;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 500;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.competency-item:hover {
+    background-color: var(--link-color);
+    color: white;
+    border-color: var(--link-color);
+    transform: translateY(-2px);
+}
+
+.tools-section-cv {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.tool-category-cv {
+    padding: 1.5rem;
+    background-color: var(--card-bg);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px var(--card-shadow);
+}
+
+.tool-category-cv h3 {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.tool-category-cv p {
+    color: var(--text-color);
+    opacity: 0.9;
 }
 
 .cv-download {
@@ -619,8 +1160,17 @@ body {
         font-size: 2rem;
     }
     
+    .hero-buttons {
+        justify-content: center;
+    }
+    
     .nav-menu {
-        gap: 1rem;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+    
+    .nav-link {
+        font-size: 0.9rem;
     }
     
     .portfolio-item {
@@ -634,6 +1184,34 @@ body {
     .update-item {
         flex-direction: column;
         gap: 0.5rem;
+    }
+    
+    .about-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .about-image {
+        margin: 0 auto;
+        max-width: 250px;
+    }
+    
+    .achievements-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .project-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .filter-btn {
+        font-size: 0.85rem;
+        padding: 0.4rem 1rem;
     }
 }
 

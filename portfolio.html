@@ -1,65 +1,153 @@
 ---
 layout: default
-title: Portfolio
+title: Projects
 ---
 
 <div class="page-header">
     <div class="container">
-        <h1>Portfolio</h1>
-        <p class="page-subtitle">A collection of my projects and work</p>
+        <h1>Project Portfolio</h1>
+        <p class="page-subtitle">A selection of projects I've successfully delivered</p>
     </div>
 </div>
 
 <section class="portfolio-section">
     <div class="container">
-        <div class="portfolio-grid">
-            <div class="portfolio-item">
-                <div class="portfolio-image">
-                    <div class="placeholder-image">Project Image</div>
+        <div class="portfolio-filter">
+            <p class="filter-label">Filter by:</p>
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="digital">Digital Transformation</button>
+            <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+            <button class="filter-btn" data-filter="agile">Agile Delivery</button>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Current Role: Solar Project Manager -->
+            <div class="project-card" data-category="all">
+                <div class="project-header">
+                    <h3>Solar Installation Projects</h3>
+                    <span class="project-status ongoing">Current</span>
                 </div>
-                <div class="portfolio-content">
-                    <h3>Project Title 1</h3>
-                    <p class="portfolio-tech">Technologies: React, Node.js, MongoDB</p>
-                    <p>Detailed description of your project. Explain what it does, the problem it solves, and your role in the project.</p>
-                    <div class="portfolio-links">
-                        <a href="#" class="btn btn-primary">View Project</a>
-                        <a href="#" class="btn btn-secondary">View Code</a>
-                    </div>
+                <div class="project-meta">
+                    <span class="project-duration">📅 Mar 2024 - Present</span>
+                    <span class="project-company">🏢 Octopus Energy</span>
+                    <span class="project-team">👥 Cross-functional teams</span>
+                </div>
+                <p class="project-description">
+                    Managing 15+ solar installation projects per month, ensuring high-quality delivery while maintaining 
+                    exceptional customer experience and regulatory compliance.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Project Management</span>
+                    <span class="tag">CRM</span>
+                    <span class="tag">Risk Management</span>
+                    <span class="tag">Stakeholder Engagement</span>
+                </div>
+                <div class="project-outcomes">
+                    <h4>Key Achievements:</h4>
+                    <ul>
+                        <li>98% on-time delivery rate across all projects</li>
+                        <li>Reduced project delays by 30% through proactive risk management</li>
+                        <li>Increased customer engagement efficiency by 40%</li>
+                        <li>Boosted customer retention by 15%</li>
+                        <li>Improved project completion rates by 20%</li>
+                        <li>Reduced project turnaround times by 25%</li>
+                        <li>Reduced compliance errors by 18%</li>
+                        <li>Onboarded and trained 10+ new team members</li>
+                    </ul>
                 </div>
             </div>
-            
-            <div class="portfolio-item">
-                <div class="portfolio-image">
-                    <div class="placeholder-image">Project Image</div>
+
+            <!-- Shell Energy Role -->
+            <div class="project-card" data-category="all">
+                <div class="project-header">
+                    <h3>Bereavement Support Programme</h3>
+                    <span class="project-status completed">Completed</span>
                 </div>
-                <div class="portfolio-content">
-                    <h3>Project Title 2</h3>
-                    <p class="portfolio-tech">Technologies: Python, Flask, PostgreSQL</p>
-                    <p>Another project description highlighting your skills and the impact of your work.</p>
-                    <div class="portfolio-links">
-                        <a href="#" class="btn btn-primary">View Project</a>
-                        <a href="#" class="btn btn-secondary">View Code</a>
-                    </div>
+                <div class="project-meta">
+                    <span class="project-duration">📅 Jan 2023 - Feb 2024</span>
+                    <span class="project-company">🏢 Shell Energy</span>
+                    <span class="project-team">👥 Customer Support Team</span>
+                </div>
+                <p class="project-description">
+                    Served as Senior Customer Support Advisor for the Bereavement Team, developing customer-centric 
+                    service strategies and managing complex high-priority cases with empathy and professionalism.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Customer Experience</span>
+                    <span class="tag">CRM</span>
+                    <span class="tag">Process Improvement</span>
+                    <span class="tag">Mentoring</span>
+                </div>
+                <div class="project-outcomes">
+                    <h4>Key Achievements:</h4>
+                    <ul>
+                        <li>Enhanced overall customer experience and operational efficiency</li>
+                        <li>Increased Trustpilot review feedback by 10%</li>
+                        <li>Developed and implemented improvements to bereavement support processes</li>
+                        <li>Managed complex cases with legal, finance, and operational teams</li>
+                        <li>Mentored junior advisors on customer engagement and CRM best practices</li>
+                        <li>Maintained 100% compliance with policy adherence</li>
+                    </ul>
                 </div>
             </div>
-            
-            <div class="portfolio-item">
-                <div class="portfolio-image">
-                    <div class="placeholder-image">Project Image</div>
+
+            <!-- Total Security Services Role -->
+            <div class="project-card" data-category="all">
+                <div class="project-header">
+                    <h3>Birmingham Commonwealth Games 2022</h3>
+                    <span class="project-status completed">Completed</span>
                 </div>
-                <div class="portfolio-content">
-                    <h3>Project Title 3</h3>
-                    <p class="portfolio-tech">Technologies: JavaScript, Express, MySQL</p>
-                    <p>Describe your third project here. Showcase different technologies and skills.</p>
-                    <div class="portfolio-links">
-                        <a href="#" class="btn btn-primary">View Project</a>
-                        <a href="#" class="btn btn-secondary">View Code</a>
-                    </div>
+                <div class="project-meta">
+                    <span class="project-duration">📅 Oct 2021 - Dec 2022</span>
+                    <span class="project-company">🏢 Total Security Services</span>
+                    <span class="project-team">👥 Multi-stakeholder operations</span>
+                </div>
+                <p class="project-description">
+                    Played key role as Junior Business Operations Coordinator in managing CRM data and coordinating 
+                    business operations during the Birmingham Commonwealth Games 2022.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Operations Management</span>
+                    <span class="tag">CRM</span>
+                    <span class="tag">Data Management</span>
+                    <span class="tag">Stakeholder Engagement</span>
+                </div>
+                <div class="project-outcomes">
+                    <h4>Key Achievements:</h4>
+                    <ul>
+                        <li>Improved customer data accuracy by 35%</li>
+                        <li>Maintained 100% accuracy in performance tracking</li>
+                        <li>Developed and monitored weekly and monthly operational reports</li>
+                        <li>Liaised with 10+ key stakeholders (security, management, external partners)</li>
+                        <li>Aligned business operations during major event</li>
+                        <li>Onboarded and trained 5+ new team members</li>
+                    </ul>
                 </div>
             </div>
-            
-            <!-- Add more portfolio items as needed -->
         </div>
     </div>
 </section>
 
+<section class="methodologies-section">
+    <div class="container">
+        <h2 class="section-title">Project Management Methodologies</h2>
+        <div class="methodologies-grid">
+            <div class="methodology-card">
+                <h3>Project Planning</h3>
+                <p>Expert in developing comprehensive project plans, timelines, and resource allocation</p>
+            </div>
+            <div class="methodology-card">
+                <h3>Quality Management</h3>
+                <p>Ensuring high standards and maintaining 98% on-time delivery rates</p>
+            </div>
+            <div class="methodology-card">
+                <h3>Risk Management</h3>
+                <p>Proactive identification and mitigation, reducing project delays by 30%</p>
+            </div>
+            <div class="methodology-card">
+                <h3>Portfolio Management</h3>
+                <p>Managing multiple projects simultaneously while maintaining quality and efficiency</p>
+            </div>
+        </div>
+    </div>
+</section>
