@@ -2248,18 +2248,24 @@ a:hover {
     }
 }
 
-/* Smooth Transitions for Dark Mode */
-* {
+/* Smooth Transitions for Dark Mode - Only for specific elements */
+body,
+.header,
+.navbar,
+.card,
+.btn,
+.project-card,
+.achievement-card {
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 /* Image Lazy Loading Effect */
-img {
+img[data-src] {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
 
-img.loaded {
+img[data-src].loaded {
     opacity: 1;
 }
 
