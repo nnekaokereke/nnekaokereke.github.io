@@ -1,34 +1,33 @@
 // Dark Mode Toggle
-const themeToggle = document.getElementById('theme-toggle');
-const body = document.body;
-
-// Check for saved theme preference or default to 'light' mode
-const currentTheme = localStorage.getItem('theme') || 'light';
-body.classList.add(currentTheme + '-mode');
-
-// Update toggle button icon
-function updateToggleIcon() {
-    if (body.classList.contains('dark-mode')) {
-        themeToggle.textContent = '☀️';
-    } else {
-        themeToggle.textContent = '🌙';
+(function() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    
+    if (!themeToggle) return; // Exit if toggle button doesn't exist
+    
+    // Get theme from localStorage or default to light
+    const currentTheme = localStorage.getItem('theme') || 'light';
+    html.setAttribute('data-theme', currentTheme);
+    
+    // Update button text based on theme
+    function updateButtonText(theme) {
+        if (themeToggle) {
+            themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
     }
-}
-
-updateToggleIcon();
-
-themeToggle.addEventListener('click', () => {
-    if (body.classList.contains('light-mode')) {
-        body.classList.remove('light-mode');
-        body.classList.add('dark-mode');
-        localStorage.setItem('theme', 'dark');
-    } else {
-        body.classList.remove('dark-mode');
-        body.classList.add('light-mode');
-        localStorage.setItem('theme', 'light');
-    }
-    updateToggleIcon();
-});
+    
+    updateButtonText(currentTheme);
+    
+    // Toggle theme on button click
+    themeToggle.addEventListener('click', function() {
+        const currentTheme = html.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        
+        html.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        updateButtonText(newTheme);
+    });
+})();
 
 // Smooth Scroll for Navigation Links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
