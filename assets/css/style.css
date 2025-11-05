@@ -1344,6 +1344,102 @@ body {
     padding: 4rem 0;
 }
 
+/* Featured Project Hero Section */
+.featured-project-hero {
+    background: linear-gradient(135deg, var(--link-color) 0%, var(--link-hover) 100%);
+    border-radius: 12px;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    color: white;
+    box-shadow: 0 4px 20px rgba(0, 102, 204, 0.3);
+}
+
+[data-theme="dark"] .featured-project-hero {
+    background: linear-gradient(135deg, #4da6ff 0%, #0066cc 100%);
+}
+
+.featured-project-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured-badge {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.featured-project-hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    line-height: 1.2;
+}
+
+.featured-project-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+    line-height: 1.6;
+}
+
+.featured-project-metrics {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.metric-item {
+    text-align: center;
+}
+
+.metric-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.metric-label {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .featured-project-hero {
+        padding: 2rem 1.5rem;
+    }
+    
+    .featured-project-hero h2 {
+        font-size: 1.8rem;
+    }
+    
+    .featured-project-subtitle {
+        font-size: 1rem;
+    }
+    
+    .featured-project-metrics {
+        gap: 2rem;
+    }
+    
+    .metric-value {
+        font-size: 2rem;
+    }
+}
+
 .portfolio-filter {
     display: flex;
     align-items: center;
@@ -2105,6 +2201,16 @@ body {
     gap: 0.5rem;
 }
 
+.case-section-title {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--link-color);
+    display: inline-block;
+}
+
 .case-section p {
     color: var(--text-color);
     opacity: 0.9;
@@ -2162,6 +2268,22 @@ body {
     font-size: 0.9rem;
     color: var(--text-color);
     opacity: 0.8;
+}
+
+.project-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.project-meta span::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: var(--link-color);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
 }
 
 /* Portfolio Note */
