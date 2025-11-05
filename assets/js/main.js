@@ -95,6 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .project-card,
         .insight-preview-card,
         .testimonial-card,
+        .interest-category-card,
         .methodology-card,
         .philosophy-card,
         .experience-timeline .timeline-item,
@@ -122,9 +123,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterButtons = document.querySelectorAll('.filter-btn');
     const projectCards = document.querySelectorAll('.project-card');
     const insightCards = document.querySelectorAll('.insight-card');
+    const interestCards = document.querySelectorAll('.interest-category-card');
     
     // Initialize all cards to be visible
     projectCards.forEach(card => {
+        card.style.display = 'block';
+        card.style.opacity = '1';
+        card.style.transform = 'translateY(0)';
+    });
+    
+    interestCards.forEach(card => {
         card.style.display = 'block';
         card.style.opacity = '1';
         card.style.transform = 'translateY(0)';
@@ -160,6 +168,24 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Filter insight cards
             insightCards.forEach(card => {
+                const category = card.dataset.category;
+                if (filter === 'all' || category === filter) {
+                    card.style.display = 'block';
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 10);
+                } else {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300);
+                }
+            });
+            
+            // Filter interest category cards
+            interestCards.forEach(card => {
                 const category = card.dataset.category;
                 if (filter === 'all' || category === filter) {
                     card.style.display = 'block';
