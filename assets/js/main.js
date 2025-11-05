@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .featured-project-card,
         .project-card,
         .insight-preview-card,
+        .testimonial-card,
         .methodology-card,
         .philosophy-card,
         .experience-timeline .timeline-item,
