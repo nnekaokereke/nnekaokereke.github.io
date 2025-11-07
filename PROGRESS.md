@@ -38,7 +38,7 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
 
 #### 1. **Homepage Redesign**
 - **Hero Section:**
-  - Updated title: "Low Carbon Tech Project Manager & CRM Specialist"
+  - Updated title: "Low-Carbon Tech Project Coordinator & CRM Specialist"
   - Added professional summary with real achievements
   - Integrated profile photo
   - Added download CV button
@@ -46,8 +46,8 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
 - **Key Achievements Section:**
   - Updated with real project numbers:
     - 250+ Solar Panels & Battery Systems Managed
-    - 20+ EV Charger Installations
-    - 10+ Heat Pump Installations
+    - 50+ EV Charger Installations
+    - 20+ Heat Pump Installations
     - 98% On-Time Delivery Rate
 
 - **Core Competencies Section:**
@@ -60,7 +60,7 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
 
 - **Professional Experience Timeline:**
   - Added complete work history with dates:
-    - Low Carbon Tech Project Manager, Octopus Energy (Mar 2024 - Present)
+    - Low-Carbon Tech Project Coordinator, Octopus Energy (Mar 2024 - Present)
     - Senior Customer Support Advisor, Shell Energy (Jan 2023 - Feb 2024)
     - Junior Business Operations Coordinator, Total Security Services (Oct 2021 - Dec 2022)
   - Included detailed achievements for each role
@@ -89,7 +89,7 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
   - Tools & Technologies section
 
 #### 3. **Portfolio Page**
-- Redesigned to showcase Project Manager work (not developer)
+- Redesigned to showcase Project Coordinator work (not developer)
 - Updated with real projects:
   - Low Carbon Tech Projects (Current - Octopus Energy)
   - Bereavement Support Programme (Shell Energy)
@@ -110,7 +110,7 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
 
 ## Current Role Details (Latest Update)
 
-### Low Carbon Tech Project Manager at Octopus Energy
+### Low-Carbon Tech Project Coordinator at Octopus Energy
 **Start Date:** March 2024 - Present  
 **Location:** Birmingham, UK
 
@@ -118,10 +118,10 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
 - **Solar Panels & Batteries:** 250+ installations
   - Products: Enphase, Tesla, Givenergy, Fox
   
-- **EV Chargers:** 20+ installations
+- **EV Chargers:** 50+ installations
   - Products: Octopus charge, Ohmi Pro, Hypervolt
   
-- **Heat Pumps:** 10+ installations
+- **Heat Pumps:** 20+ installations
   - Products: Cosy 6, Cosy 9, Cosy 12, Diken heatpumps
 
 #### Key Metrics:
@@ -167,7 +167,7 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
 ### ✅ Implemented:
 1. **Responsive Design** - Mobile-friendly across all devices
 2. **Dark Mode** - Toggle between light and dark themes
-3. **Professional Layout** - Clean, modern design suitable for Project Manager portfolio
+3. **Professional Layout** - Clean, modern design suitable for Project Coordinator portfolio
 4. **Timeline Design** - Visual timeline for work experience
 5. **Card-Based Layout** - Modern card designs for projects, skills, education
 6. **Hover Effects** - Interactive elements with smooth transitions
@@ -222,7 +222,7 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
 ## Notes
 
 - All CV information is now accessible on the website - visitors don't need to download the CV
-- Website is specifically designed for Project Manager role (not developer)
+- Website is specifically designed for Project Coordinator role (not developer)
 - All real achievements and metrics from CV are included
 - Professional design suitable for career advancement
 - Mobile-responsive and accessible
@@ -236,7 +236,7 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
 - Added education section
 - Added comprehensive skills section
 - Updated achievements with real project numbers
-- Updated role title to "Low Carbon Tech Project Manager"
+- Updated role title to "Low-Carbon Tech Project Coordinator"
 - Added all low carbon technology expertise
 - Created PROGRESS.md documentation
 
