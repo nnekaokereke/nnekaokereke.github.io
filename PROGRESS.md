@@ -60,7 +60,7 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
 
 - **Professional Experience Timeline:**
   - Added complete work history with dates:
-    - Low-Carbon Tech Project Coordinator, Octopus Energy (Mar 2024 - Present)
+    - Low-Carbon Tech Project Coordinator, Octopus Energy (Aug 2024 - Present)
     - Senior Customer Support Advisor, Shell Energy (Jan 2023 - Feb 2024)
     - Junior Business Operations Coordinator, Total Security Services (Oct 2021 - Dec 2022)
   - Included detailed achievements for each role
@@ -111,7 +111,7 @@ This document tracks all updates and changes made to Nneka Okereke's portfolio w
 ## Current Role Details (Latest Update)
 
 ### Low-Carbon Tech Project Coordinator at Octopus Energy
-**Start Date:** March 2024 - Present  
+**Start Date:** August 2024 - Present  
 **Location:** Birmingham, UK
 
 #### Project Management:
