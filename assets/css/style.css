@@ -600,6 +600,17 @@ body {
     height: 100%;
 }
 
+.featured-project-image.capability-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--link-color);
+}
+
 .featured-project-content {
     padding: 2rem;
 }
